@@ -1,0 +1,19 @@
+.home-title {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: var(--text-dark);
+  text-align: center;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .categories-grid {
+    grid-template-columns: 1fr;
+  }
+}
